@@ -1,0 +1,8 @@
+### Add a book using POST
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Wings of Fire"
+}
